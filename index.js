@@ -17,10 +17,10 @@ var no = "I can't hear you!";
   if (string.toLowerCase(string) === string) {
     return no;
   }
-  else if (aWord.toUpperCase(aWord) === aWord) {
-    return yesUnswer;
+  else if (string.toUpperCase(string) === string) {
+    return yes;
   }
-  else if ("I love you, Grandma." === aWord) {
-    return lovUnswer
+  else if ("I love you, Grandma." === string) {
+    return mix
   }
 }
